@@ -86,3 +86,5 @@ To reproduce our experiment, follow the setup steps and run the command in **Run
 Claude was used throughout the development of our task generator and pipeline. The task generator selects a random number and generates a sequences of random arithmetic operations ie. "Take 400. Add 20 to it".
 
 # AI Contributions: Report
+
+ChatGPT was used to assist with drafting and revising parts of our report based on our research ideas, experimental methods, and results. We provided our own explanations and findings, and used ChatGPT to help organize them into clearer English paragraphs. It also helped improve grammar, reduce repetitive wording, and revise sections such as the literature review, results, and discussion. We reviewed the generated content to make sure it was consistent with our project and findings.
