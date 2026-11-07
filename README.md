@@ -81,7 +81,7 @@ We do not use an external dataset. `tasks.py` generates our math tasks using a r
 
 To reproduce our experiment, follow the setup steps and run the command in **Running the Experiment**. Using `--task-seed 1` with the same code generates the same 100 tasks with 12 steps each. The program tests each task with all three prompting methods and saves the results to `confirm.jsonl`. If this output file already exists, the runner skips completed runs; use a new output filename to start a fresh run. Model responses may still vary across environments or model versions.
 
-AI Contributions: Programming
+# AI Contributions: Programming
 
 Claude was used throughout the development of our task generator and pipeline. The task generator selects a random number and generates a sequences of random arithmetic operations for the qwen model to perform (ie. "Take 400. Add 20 to it"). The core logic of the generator was developed by us.
 
