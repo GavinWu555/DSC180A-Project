@@ -6,3 +6,5 @@ However, both of us were unfamiliar with how we could pass the generated questio
 
 
 # AI Contributions: Report
+
+ChatGPT was used to assist with drafting and revising parts of our report based on our research ideas, experimental methods, and results. We provided our own explanations and findings, and used ChatGPT to help organize them into clearer English paragraphs. It also helped improve grammar, reduce repetitive wording, and revise sections such as the literature review, results, and discussion. We reviewed the generated content to make sure it was consistent with our project and findings.
