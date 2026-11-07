@@ -83,9 +83,9 @@ To reproduce our experiment, follow the setup steps and run the command in **Run
 
 # AI Contributions: Programming
 
-Claude was used throughout the development of our task generator and pipeline. The task generator selects a random number and generates a sequences of random arithmetic operations for the qwen model to perform (ie. "Take 400. Add 20 to it"). The core logic of the generator was developed by us.
+Claude was used throughout the development of our task generator and pipeline. Our experimental idea was to compare the difference between sending instructions in a singular prompt, compared to in many different prompts. We wanted to create numerical and coding based problems. With the help of Claude, we created a task generator that produces arithmetic problems. We tested its accuracy by doing the some of the arithmetic problems ourselves, and made sure our answers matched with the correct answers in the grader.
 
-However, both of us were unfamiliar with how we could pass the generated questions from our python script to the qwen LLM and get its answer back. Claude created the infrastructure that gives the tasks to the qwen model, receives and parses its answer, and compares it to the expected correct answer we specified. Claude was also heavily used in the creation of run_experiment.py, which automates the entire process, giving the qwen agent tasks and then receiving its answers back and comparing it against the correct answers for hundreds of tasks.
+Also, both of us were unfamiliar with how we could pass the generated questions from our python script to the qwen LLM and get its answer back. Claude created the infrastructure that gives the tasks to the qwen model, receives and parses its answer, and compares it to the expected correct answer we specified. Claude was also heavily used in the creation of run_experiment.py, which automates the entire process, giving the qwen agent tasks and then receiving its answers back and comparing it against the correct answers for hundreds of tasks. We reviewed the AI generated code and performed small tests to ensure it worked.
 
 # AI Contributions: Report
 
