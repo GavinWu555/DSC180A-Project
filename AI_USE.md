@@ -52,3 +52,13 @@ The relevant commands are:
 python tasks.py selftest
 python run_experiment.py --dry-run --n 2 --out dry.jsonl
 ```
+
+
+## 5. Important Prompts
+
+
+1. I want to perform an empirical experiment using LLMs. My idea is to test whether or not sending bulk instructions or if sending different steps in different prompts leads to a change in accuracy of responses. Is this a good idea? Does there exist any existing studies on this topic?
+
+2. I am thinking of using smaller models, as I might run a LLM locally to avoid confounding variables. I want the tasks to be math and programming related. For example, giving the agent a sequence of arithmetic operations that rely on each other. Could you help design a pipeline for this experiment.
+
+The rest of the coding related prompts were mostly around debugging syntax errors and command line arguments.
