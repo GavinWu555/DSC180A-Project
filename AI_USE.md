@@ -1,6 +1,6 @@
 # AI Use Documentation
 
-We used Claude and ChatGPT during different parts of our DSC 180A project. The following sections summarize the main requests we made, how AI contributed, and how we reviewed the results. The following sections summarize our main AI interactions, including what we asked, what AI helped us with, and how we checked the results.
+We used Claude and ChatGPT during different parts of our DSC 180A project. The following sections summarize our main AI interactions, including what we asked, what AI helped us with, and how we checked the results.
 
 ## 1. AI Contributions: Programming
 
