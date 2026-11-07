@@ -62,3 +62,7 @@ python run_experiment.py --dry-run --n 2 --out dry.jsonl
 2. I am thinking of using smaller models, as I might run a LLM locally to avoid confounding variables. I want the tasks to be math and programming related. For example, giving the agent a sequence of arithmetic operations that rely on each other. Could you help design a pipeline for this experiment.
 
 The rest of the coding related prompts were mostly around debugging syntax errors and command line arguments.
+
+On the report side, 
+
+1. We initially tested 30 arithmetic tasks and then expanded our experiment to 100 tasks using Qwen3.5:4B. In the 30-task experiment, bulk prompting achieved 33% accuracy, same-conversation prompting achieved 50%, and separate-conversation prompting achieved 17%. After expanding to 100 tasks, the results changed to 43%, 37%, and 16%. Could you help us organize these findings into the Results and Discussion sections? We also want to explain our accuracy-by-step figure, discuss the trade-off between accuracy and token usage, and avoid making conclusions that our results cannot fully support.
